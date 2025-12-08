@@ -1,0 +1,684 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 Property Plotter <pplotter.com>
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-07 11:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# #################################### separator #################################### #
+msgid "Subplot"
+msgstr "子图（子坐标系）"
+
+msgid "Misc"
+msgstr "其它"
+
+msgid "Spines"
+msgstr "轴线"
+
+msgid "Grid"
+msgstr "网格"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Label"
+msgstr "轴标签"
+
+msgid "Axes 3D"
+msgstr "3D坐标系"
+
+msgid "Tick Line"
+msgstr "刻度线"
+
+msgid "Tick Label"
+msgstr "刻度标签"
+
+msgid "Major Tick"
+msgstr "主刻度"
+
+msgid "Minor Tick"
+msgstr "次刻度"
+
+msgid "Line"
+msgstr "线条"
+
+msgid "Patch"
+msgstr "片元"
+
+msgid "Hatch"
+msgstr "阴影线"
+
+msgid "Frame"
+msgstr "遮罩"
+
+msgid "Marker"
+msgstr "标识符"
+
+msgid "Layout"
+msgstr "布局"
+
+msgid "Font"
+msgstr "字体"
+
+msgid "LaTeX"
+msgstr "LaTeX"
+
+msgid "Text"
+msgstr "文本"
+
+msgid "Flier Properties"
+msgstr "离群点属性"
+
+msgid "Box Properties"
+msgstr "盒子属性"
+
+msgid "Whisker Properties"
+msgstr "连接线竖线"
+
+msgid "Cap Properties"
+msgstr "端帽线属性"
+
+msgid "Median Properties"
+msgstr "中位线属性"
+
+msgid "Mean Properties"
+msgstr "平均线属性"
+
+msgid "Color"
+msgstr "色彩循环"
+
+
+
+# ###################################### entry ###################################### #
+## Figure
+msgid "figure.frameon"
+msgstr "frame on"
+
+msgid "figure.constrained_layout.use"
+msgstr "constrained layout"
+
+msgid "figure.dpi"
+msgstr "DPI"
+
+msgid "figure.figsize"
+msgstr "图像尺寸"
+
+msgid "figure.facecolor"
+msgstr "前景色"
+
+msgid "figure.edgecolor"
+msgstr "轮廓颜色"
+
+msgid "figure.titlesize"
+msgstr "标题字号"
+
+msgid "figure.titleweight"
+msgstr "标题字重"
+
+msgid "figure.labelsize"
+msgstr "标签字号"
+
+msgid "figure.labelweight"
+msgstr "标签字重"
+
+msgid "figure.subplot.left"
+msgstr "左侧"
+
+msgid "figure.subplot.right"
+msgstr "右侧"
+
+msgid "figure.subplot.bottom"
+msgstr "底部"
+
+msgid "figure.subplot.top"
+msgstr "顶部"
+
+msgid "figure.subplot.wspace"
+msgstr "水平间距"
+
+msgid "figure.subplot.hspace"
+msgstr "垂直间距"
+
+msgid "savefig.transparent"
+msgstr "图片保存时使用透明背景"
+
+msgid "savefig.format"
+msgstr "保存格式"
+
+msgid "savefig.bbox"
+msgstr "savefig.bbox"
+
+msgid "animation.writer"
+msgstr "动画写出工具"
+
+
+
+## Axes
+msgid "axes.facecolor"
+msgstr "前景色"
+
+msgid "axes.edgecolor"
+msgstr "轮廓色"
+
+msgid "axes.linewidth"
+msgstr "轴线宽度"
+
+msgid "axes.spines.left"
+msgstr "左侧"
+
+msgid "axes.spines.right"
+msgstr "右侧"
+
+msgid "axes.spines.bottom"
+msgstr "底部"
+
+msgid "axes.spines.top"
+msgstr "顶部"
+
+msgid "grid.color"
+msgstr "颜色"
+
+msgid "axes.grid"
+msgstr "网格"
+
+msgid "polaraxes.grid"
+msgstr "极坐标系"
+
+msgid "axes3d.grid"
+msgstr "3D坐标系"
+
+msgid "axes.grid.axis"
+msgstr "坐标轴"
+
+msgid "axes.grid.which"
+msgstr "主/次刻度"
+
+msgid "grid.linestyle"
+msgstr "线型"
+
+msgid "grid.linewidth"
+msgstr "线宽"
+
+msgid "grid.alpha"
+msgstr "透明度"
+
+msgid "axes.titlecolor"
+msgstr "颜色"
+
+msgid "axes.titlelocation"
+msgstr "位置"
+
+msgid "axes.titlesize"
+msgstr "字号"
+
+msgid "axes.titleweight"
+msgstr "字重"
+
+msgid "axes.titley"
+msgstr "Y坐标"
+
+msgid "axes.titlepad"
+msgstr "浮动磅数"
+
+msgid "axes.labelcolor"
+msgstr "颜色"
+
+msgid "axes.labelsize"
+msgstr "字号"
+
+msgid "axes.labelweight"
+msgstr "字重"
+
+msgid "axes.labelpad"
+msgstr "浮动磅数"
+
+msgid "xaxis.labellocation"
+msgstr "X轴标签位置"
+
+msgid "yaxis.labellocation"
+msgstr "Y轴标签位置"
+
+msgid "axes3d.automargin"
+msgstr "自动边距"
+
+msgid "axes3d.xaxis.panecolor"
+msgstr "xaxis pane"
+
+msgid "axes3d.yaxis.panecolor"
+msgstr "yaxis pane"
+
+msgid "axes3d.zaxis.panecolor"
+msgstr "zaxis pane"
+
+msgid "axes.unicode_minus"
+msgstr "使用减号替代负号"
+
+msgid "axes.xmargin"
+msgstr "X轴边距"
+
+msgid "axes.ymargin"
+msgstr "Y轴边距"
+
+msgid "axes.zmargin"
+msgstr "Z轴边距"
+
+msgid "axes.autolimit_mode"
+msgstr "autolimit mode"
+
+
+
+
+## Ticks
+msgid "xtick.top"
+msgstr "顶部"
+
+msgid "xtick.bottom"
+msgstr "底部"
+
+msgid "ytick.left"
+msgstr "左侧"
+
+msgid "ytick.right"
+msgstr "右侧"
+
+msgid "xtick.color"
+msgstr "X轴刻度线"
+
+msgid "ytick.color"
+msgstr "Y轴刻度线"
+
+msgid "xtick.labeltop"
+msgstr "顶部"
+
+msgid "xtick.labelbottom"
+msgstr "底部"
+
+msgid "ytick.labelleft"
+msgstr "左侧"
+
+msgid "ytick.labelright"
+msgstr "右侧"
+
+msgid "xtick.labelcolor"
+msgstr "X轴刻度标签"
+
+msgid "ytick.labelcolor"
+msgstr "Y轴刻度标签"
+
+msgid "xtick.major.size"
+msgstr "长度"
+
+msgid "xtick.major.width"
+msgstr "宽度"
+
+msgid "xtick.major.pad"
+msgstr "浮动磅数"
+
+msgid "xtick.minor.size"
+msgstr "长度"
+
+msgid "xtick.minor.width"
+msgstr "宽度"
+
+msgid "xtick.minor.pad"
+msgstr "浮动磅数"
+
+msgid "xtick.minor.visible"
+msgstr "开启X轴刻度"
+
+msgid "ytick.minor.visible"
+msgstr "开启Y轴刻度"
+
+## Lines
+msgid "lines.color"
+msgstr "颜色"
+
+msgid "lines.linewidth"
+msgstr "线宽"
+
+msgid "lines.linestyle"
+msgstr "线型"
+
+msgid "lines.antialiased"
+msgstr "抗锯齿"
+
+msgid "lines.markerfacecolor"
+msgstr "前景色"
+
+msgid "lines.markeredgecolor"
+msgstr "轮廓色"
+
+msgid "lines.marker"
+msgstr "样式"
+
+msgid "lines.markeredgewidth"
+msgstr "轮廓线宽"
+
+msgid "lines.markersize"
+msgstr "尺寸"
+
+msgid "markers.fillstyle"
+msgstr "填充方式"
+
+msgid "patch.facecolor"
+msgstr "前景色"
+
+msgid "patch.edgecolor"
+msgstr "轮廓色"
+
+msgid "patch.force_edgecolor"
+msgstr "强制轮廓色"
+
+msgid "patch.linewidth"
+msgstr "轮廓线宽"
+
+msgid "patch.antialiased"
+msgstr "抗锯齿"
+
+msgid "hatch.color"
+msgstr "颜色"
+
+msgid "hatch.linewidth"
+msgstr "线宽"
+
+## Legend
+msgid "legend.facecolor"
+msgstr "前景色"
+
+msgid "legend.edgecolor"
+msgstr "轮廓色"
+
+msgid "legend.labelcolor"
+msgstr "文本颜色"
+
+msgid "legend.loc"
+msgstr "位置"
+
+msgid "legend.fontsize"
+msgstr "字号"
+
+msgid "legend.frameon"
+msgstr "启用"
+
+msgid "legend.shadow"
+msgstr "阴影"
+
+msgid "legend.fancybox"
+msgstr "圆角"
+
+msgid "legend.framealpha"
+msgstr "透明的"
+
+msgid "legend.numpoints"
+msgstr "标识符点数"
+
+msgid "legend.scatterpoints"
+msgstr "散点点数"
+
+msgid "legend.markerscale"
+msgstr "标识符缩放"
+
+msgid "legend.borderpad"
+msgstr "内边距"
+
+msgid "legend.borderaxespad"
+msgstr "外边距"
+
+msgid "legend.labelspacing"
+msgstr "标签距离"
+
+msgid "legend.handlelength"
+msgstr "图例长度"
+
+msgid "legend.handleheight"
+msgstr "图例高度"
+
+msgid "legend.handletextpad"
+msgstr "文本浮动距离"
+
+msgid "legend.columnspacing"
+msgstr "列间距"
+
+## Text
+msgid "font.family"
+msgstr "字体族"
+
+msgid "font.style"
+msgstr "斜体"
+
+msgid "font.variant"
+msgstr "variant(?)"
+
+msgid "font.weight"
+msgstr "字重"
+
+msgid "font.size"
+msgstr "字号"
+
+msgid "mathtext.fontset"
+msgstr "数学字体"
+
+msgid "text.color"
+msgstr "颜色"
+
+msgid "text.antialiased"
+msgstr "抗锯齿"
+
+msgid "text.parse_math"
+msgstr "公式解析"
+
+msgid "text.hinting"
+msgstr "text hinting"
+
+
+
+
+## Boxplot
+msgid "boxplot.notch"
+msgstr "盒子缺口"
+
+msgid "boxplot.vertical"
+msgstr "垂直"
+
+msgid "boxplot.patchartist"
+msgstr "填充"
+
+msgid "boxplot.showmeans"
+msgstr "中位数"
+
+msgid "boxplot.showcaps"
+msgstr "端帽线"
+
+msgid "boxplot.showbox"
+msgstr "盒子"
+
+msgid "boxplot.showfliers"
+msgstr "离群点"
+
+msgid "boxplot.meanline"
+msgstr "mean line"
+
+msgid "boxplot.whiskers"
+msgstr "连接线"
+
+msgid "boxplot.flierprops.marker"
+msgstr "标识符"
+
+msgid "boxplot.flierprops.color"
+msgstr "颜色"
+
+msgid "boxplot.flierprops.markerfacecolor"
+msgstr "前景色"
+
+msgid "boxplot.flierprops.markeredgecolor"
+msgstr "轮廓色"
+
+msgid "boxplot.flierprops.markeredgewidth"
+msgstr "轮廓线宽"
+
+msgid "boxplot.flierprops.markersize"
+msgstr "尺寸"
+
+msgid "boxplot.flierprops.linestyle"
+msgstr "线型"
+
+msgid "boxplot.flierprops.linewidth"
+msgstr "线宽"
+
+msgid "boxplot.boxprops.color"
+msgstr "颜色"
+
+msgid "boxplot.boxprops.linewidth"
+msgstr "线宽"
+
+msgid "boxplot.boxprops.linestyle"
+msgstr "线型"
+
+msgid "boxplot.whiskerprops.color"
+msgstr "颜色"
+
+msgid "boxplot.whiskerprops.linewidth"
+msgstr "线宽"
+
+msgid "boxplot.whiskerprops.linestyle"
+msgstr "线型"
+
+msgid "boxplot.capprops.color"
+msgstr "颜色"
+
+msgid "boxplot.capprops.linewidth"
+msgstr "线宽"
+
+msgid "boxplot.capprops.linestyle"
+msgstr "线型"
+
+msgid "boxplot.medianprops.color"
+msgstr "颜色"
+
+msgid "boxplot.medianprops.linewidth"
+msgstr "线宽"
+
+msgid "boxplot.medianprops.linestyle"
+msgstr "线型"
+
+msgid "boxplot.meanprops.color"
+msgstr "颜色"
+
+msgid "boxplot.meanprops.linewidth"
+msgstr "线宽"
+
+msgid "boxplot.meanprops.linestyle"
+msgstr "线型"
+
+msgid "boxplot.meanprops.marker"
+msgstr "标识符"
+
+msgid "boxplot.meanprops.markerfacecolor"
+msgstr "前景色"
+
+msgid "boxplot.meanprops.markeredgecolor"
+msgstr "轮廓色"
+
+msgid "boxplot.meanprops.markersize"
+msgstr "尺寸"
+
+
+
+
+## Image
+msgid "image.aspect"
+msgstr "比例"
+
+msgid "image.interpolation"
+msgstr "插值算法"
+
+msgid "image.cmap"
+msgstr "颜色映射"
+
+msgid "image.lut"
+msgstr "lut"
+
+msgid "image.origin"
+msgstr "起点"
+
+msgid "image.resample"
+msgstr "重采样"
+
+msgid "image.composite_image"
+msgstr "composite"
+
+
+
+# ################################### Preferences ################################### #
+msgid "Preferences"
+msgstr "首选项"
+
+msgid "Figure"
+msgstr "图像"
+
+msgid "Axes"
+msgstr "坐标系"
+
+msgid "Ticks"
+msgstr "刻度"
+
+msgid "Lines"
+msgstr "线条"
+
+msgid "Legend"
+msgstr "图例"
+
+msgid "Boxplot"
+msgstr "箱型图"
+
+msgid "Image"
+msgstr "图片"
+
+msgid "List"
+msgstr "序列"
+
+msgid "Style Name"
+msgstr "样式名称"
+
+msgid "Duplicate name policy"
+msgstr "重名策略"
+
+msgid "Ovewrite"
+msgstr "覆盖"
+
+msgid "Numeric suffix"
+msgstr "数字后缀"
+
+msgid "Default Directory"
+msgstr "默认路径"
+
+msgid "Download"
+msgstr "下载路径"
+
+msgid "Custom Style"
+msgstr "样式库"
+
+msgid "Target"
+msgstr "目标路径"
+
+msgid "Download to Target"
+msgstr "下载到目标路径"
+
+msgid "Reset Default Before Apply New Style"
+msgstr "应用新样式前先重设为默认"
+
+msgid "Language"
+msgstr "语言"
+

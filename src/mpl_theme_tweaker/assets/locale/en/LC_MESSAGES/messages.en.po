@@ -1,0 +1,609 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-07 11:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# #################################### separator #################################### #
+msgid "Subplot"
+msgstr "Subplot"
+
+msgid "Misc"
+msgstr "Misc"
+
+msgid "Spines"
+msgstr "Spines"
+
+msgid "Grid"
+msgstr "Grid"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Axes 3D"
+msgstr "Axes 3D"
+
+msgid "Tick Line"
+msgstr "Tick Line"
+
+msgid "Tick Label"
+msgstr "Tick Label"
+
+msgid "Major Tick"
+msgstr "Major Tick"
+
+msgid "Minor Tick"
+msgstr "Minor Tick"
+
+msgid "Line"
+msgstr "Line"
+
+msgid "Patch"
+msgstr "Patch"
+
+msgid "Hatch"
+msgstr "Hatch"
+
+msgid "Frame"
+msgstr "Frame"
+
+msgid "Marker"
+msgstr "Marker"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Font"
+msgstr "Font"
+
+msgid "LaTeX"
+msgstr "LaTeX"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Flier Properties"
+msgstr "Flier Properties"
+
+msgid "Box Properties"
+msgstr "Box Properties"
+
+msgid "Whisker Properties"
+msgstr "Whisker Properties"
+
+msgid "Cap Properties"
+msgstr "Cap Properties"
+
+msgid "Median Properties"
+msgstr "Median Properties"
+
+msgid "Mean Properties"
+msgstr "Mean Properties"
+
+# ###################################### entry ###################################### #
+## Figure
+msgid "figure.frameon"
+msgstr "frame on"
+
+msgid "figure.constrained_layout.use"
+msgstr "constrained layout"
+
+msgid "figure.dpi"
+msgstr "DPI"
+
+msgid "figure.figsize"
+msgstr "figsize"
+
+msgid "figure.facecolor"
+msgstr "face color"
+
+msgid "figure.edgecolor"
+msgstr "edge color"
+
+msgid "figure.titlesize"
+msgstr "title size"
+
+msgid "figure.titleweight"
+msgstr "title weight"
+
+msgid "figure.labelsize"
+msgstr "label size"
+
+msgid "figure.labelweight"
+msgstr "label weight"
+
+msgid "figure.subplot.left"
+msgstr "left"
+
+msgid "figure.subplot.right"
+msgstr "right"
+
+msgid "figure.subplot.bottom"
+msgstr "bottom"
+
+msgid "figure.subplot.top"
+msgstr "top"
+
+msgid "figure.subplot.wspace"
+msgstr "wspace"
+
+msgid "figure.subplot.hspace"
+msgstr "hspace"
+
+msgid "savefig.transparent"
+msgstr "savefig transparent"
+
+msgid "savefig.format"
+msgstr "savefig format"
+
+msgid "savefig.bbox"
+msgstr "savefig bbox"
+
+msgid "animation.writer"
+msgstr "animation writer"
+
+## Axes
+msgid "axes.facecolor"
+msgstr "face"
+
+msgid "axes.edgecolor"
+msgstr "edge"
+
+msgid "axes.linewidth"
+msgstr "spines width"
+
+msgid "axes.spines.left"
+msgstr "left"
+
+msgid "axes.spines.right"
+msgstr "right"
+
+msgid "axes.spines.bottom"
+msgstr "bottom"
+
+msgid "axes.spines.top"
+msgstr "top"
+
+msgid "grid.color"
+msgstr "color"
+
+msgid "axes.grid"
+msgstr "grid"
+
+msgid "polaraxes.grid"
+msgstr "polar axes grid"
+
+msgid "axes3d.grid"
+msgstr "3D axes grid"
+
+msgid "axes.grid.axis"
+msgstr "axis"
+
+msgid "axes.grid.which"
+msgstr "which"
+
+msgid "grid.linestyle"
+msgstr "linestyle"
+
+msgid "grid.linewidth"
+msgstr "linewidth"
+
+msgid "grid.alpha"
+msgstr "alpha"
+
+msgid "axes.titlecolor"
+msgstr "color"
+
+msgid "axes.titlelocation"
+msgstr "location"
+
+msgid "axes.titlesize"
+msgstr "size"
+
+msgid "axes.titleweight"
+msgstr "weight"
+
+msgid "axes.titley"
+msgstr "title y"
+
+msgid "axes.titlepad"
+msgstr "title pad"
+
+msgid "axes.labelcolor"
+msgstr "color"
+
+msgid "axes.labelsize"
+msgstr "label size"
+
+msgid "axes.labelweight"
+msgstr "label weight"
+
+msgid "axes.labelpad"
+msgstr "label pad"
+
+msgid "xaxis.labellocation"
+msgstr "x label location"
+
+msgid "yaxis.labellocation"
+msgstr "y label location"
+
+msgid "axes3d.automargin"
+msgstr "auto margin"
+
+msgid "axes3d.xaxis.panecolor"
+msgstr "xaxis pane"
+
+msgid "axes3d.yaxis.panecolor"
+msgstr "yaxis pane"
+
+msgid "axes3d.zaxis.panecolor"
+msgstr "zaxis pane"
+
+msgid "axes.unicode_minus"
+msgstr "unicode minus"
+
+msgid "axes.xmargin"
+msgstr "x margin"
+
+msgid "axes.ymargin"
+msgstr "y margin"
+
+msgid "axes.zmargin"
+msgstr "z margin"
+
+msgid "axes.autolimit_mode"
+msgstr "autolimit mode"
+
+## Ticks
+msgid "xtick.top"
+msgstr "x top"
+
+msgid "xtick.bottom"
+msgstr "x bottom"
+
+msgid "ytick.left"
+msgstr "y left"
+
+msgid "ytick.right"
+msgstr "y right"
+
+msgid "xtick.color"
+msgstr "x color"
+
+msgid "ytick.color"
+msgstr "y color"
+
+msgid "xtick.labeltop"
+msgstr "x label top"
+
+msgid "xtick.labelbottom"
+msgstr "x label bottom"
+
+msgid "ytick.labelleft"
+msgstr "y label left"
+
+msgid "ytick.labelright"
+msgstr "y label right"
+
+msgid "xtick.labelcolor"
+msgstr "x label color"
+
+msgid "ytick.labelcolor"
+msgstr "y label color"
+
+msgid "xtick.major.size"
+msgstr "major size"
+
+msgid "xtick.major.width"
+msgstr "major width"
+
+msgid "xtick.major.pad"
+msgstr "major pad"
+
+msgid "xtick.minor.size"
+msgstr "minor size"
+
+msgid "xtick.minor.width"
+msgstr "minor width"
+
+msgid "xtick.minor.pad"
+msgstr "minor pad"
+
+msgid "xtick.minor.visible"
+msgstr "x visible"
+
+msgid "ytick.minor.visible"
+msgstr "y visible"
+
+## Lines
+msgid "lines.color"
+msgstr "color"
+
+msgid "lines.linewidth"
+msgstr "line width"
+
+msgid "lines.linestyle"
+msgstr "line style"
+
+msgid "lines.antialiased"
+msgstr "antialiased"
+
+msgid "lines.markerfacecolor"
+msgstr "facecolor"
+
+msgid "lines.markeredgecolor"
+msgstr "edge color"
+
+msgid "lines.marker"
+msgstr "marker"
+
+msgid "lines.markeredgewidth"
+msgstr "marker edge width"
+
+msgid "lines.markersize"
+msgstr "marker size"
+
+msgid "markers.fillstyle"
+msgstr "markers fillstyle"
+
+msgid "patch.facecolor"
+msgstr "facecolor "
+
+msgid "patch.edgecolor"
+msgstr "edge color "
+
+msgid "patch.force_edgecolor"
+msgstr "patch force edgecolor"
+
+msgid "patch.linewidth"
+msgstr "patch line width"
+
+msgid "patch.antialiased"
+msgstr "patch antialiased"
+
+msgid "hatch.color"
+msgstr "hatch color"
+
+msgid "hatch.linewidth"
+msgstr "hatch line width"
+
+## Legend
+msgid "legend.facecolor"
+msgstr "face color"
+
+msgid "legend.edgecolor"
+msgstr "edge color"
+
+msgid "legend.labelcolor"
+msgstr "label color"
+
+msgid "legend.loc"
+msgstr "legend location"
+
+msgid "legend.fontsize"
+msgstr "font size"
+
+msgid "legend.frameon"
+msgstr "frame on"
+
+msgid "legend.shadow"
+msgstr "shadow"
+
+msgid "legend.fancybox"
+msgstr "fancy box"
+
+msgid "legend.framealpha"
+msgstr "frame alpha"
+
+msgid "legend.numpoints"
+msgstr "number of points"
+
+msgid "legend.scatterpoints"
+msgstr "scatter points"
+
+msgid "legend.markerscale"
+msgstr "marker scale"
+
+msgid "legend.borderpad"
+msgstr "border pad"
+
+msgid "legend.borderaxespad"
+msgstr "border axes pad"
+
+msgid "legend.labelspacing"
+msgstr "label spacing"
+
+msgid "legend.handlelength"
+msgstr "handle length"
+
+msgid "legend.handleheight"
+msgstr "handle height"
+
+msgid "legend.handletextpad"
+msgstr "handle text pad"
+
+msgid "legend.columnspacing"
+msgstr "column spacing"
+
+## Text
+msgid "font.family"
+msgstr "font family"
+
+msgid "font.style"
+msgstr "font style"
+
+msgid "font.variant"
+msgstr "font variant"
+
+msgid "font.weight"
+msgstr "font weight"
+
+msgid "font.size"
+msgstr "font size"
+
+msgid "mathtext.fontset"
+msgstr "mathtext fontset"
+
+msgid "text.color"
+msgstr "text color"
+
+msgid "text.antialiased"
+msgstr "antialiased"
+
+msgid "text.parse_math"
+msgstr "parse math"
+
+msgid "text.hinting"
+msgstr "text hinting"
+
+## Boxplot
+msgid "boxplot.notch"
+msgstr "notch"
+
+msgid "boxplot.vertical"
+msgstr "vertical"
+
+msgid "boxplot.patchartist"
+msgstr "patch artist"
+
+msgid "boxplot.showmeans"
+msgstr "show means"
+
+msgid "boxplot.showcaps"
+msgstr "show caps"
+
+msgid "boxplot.showbox"
+msgstr "show box"
+
+msgid "boxplot.showfliers"
+msgstr "show fliers"
+
+msgid "boxplot.meanline"
+msgstr "mean line"
+
+msgid "boxplot.whiskers"
+msgstr "whiskers"
+
+msgid "boxplot.flierprops.marker"
+msgstr "flier marker"
+
+msgid "boxplot.flierprops.color"
+msgstr "flier color"
+
+msgid "boxplot.flierprops.markerfacecolor"
+msgstr "flier marker facecolor"
+
+msgid "boxplot.flierprops.markeredgecolor"
+msgstr "flier marker edgecolor"
+
+msgid "boxplot.flierprops.markeredgewidth"
+msgstr "flier marker edgewidth"
+
+msgid "boxplot.flierprops.markersize"
+msgstr "flier marker size"
+
+msgid "boxplot.flierprops.linestyle"
+msgstr "flier linestyle"
+
+msgid "boxplot.flierprops.linewidth"
+msgstr "flier line width"
+
+msgid "boxplot.boxprops.color"
+msgstr "box color"
+
+msgid "boxplot.boxprops.linewidth"
+msgstr "box line width"
+
+msgid "boxplot.boxprops.linestyle"
+msgstr "box linestyle"
+
+msgid "boxplot.whiskerprops.color"
+msgstr "whisker color"
+
+msgid "boxplot.whiskerprops.linewidth"
+msgstr "whisker line width"
+
+msgid "boxplot.whiskerprops.linestyle"
+msgstr "whisker linestyle"
+
+msgid "boxplot.capprops.color"
+msgstr "cap color"
+
+msgid "boxplot.capprops.linewidth"
+msgstr "cap line width"
+
+msgid "boxplot.capprops.linestyle"
+msgstr "cap linestyle"
+
+msgid "boxplot.medianprops.color"
+msgstr "median color"
+
+msgid "boxplot.medianprops.linewidth"
+msgstr "median line width"
+
+msgid "boxplot.medianprops.linestyle"
+msgstr "median linestyle"
+
+msgid "boxplot.meanprops.color"
+msgstr "mean color"
+
+msgid "boxplot.meanprops.linewidth"
+msgstr "mean line width"
+
+msgid "boxplot.meanprops.linestyle"
+msgstr "mean linestyle"
+
+msgid "boxplot.meanprops.marker"
+msgstr "mean marker"
+
+msgid "boxplot.meanprops.markerfacecolor"
+msgstr "mean markerfacecolor"
+
+msgid "boxplot.meanprops.markeredgecolor"
+msgstr "mean markeredgecolor"
+
+msgid "boxplot.meanprops.markersize"
+msgstr "mean markersize"
+
+## Image
+msgid "image.aspect"
+msgstr "aspect"
+
+msgid "image.interpolation"
+msgstr "interpolation"
+
+msgid "image.cmap"
+msgstr "colormap"
+
+msgid "image.lut"
+msgstr "lut"
+
+msgid "image.origin"
+msgstr "origin"
+
+msgid "image.resample"
+msgstr "resample"
+
+msgid "image.composite_image"
+msgstr "composite"
+
+
+
+
+

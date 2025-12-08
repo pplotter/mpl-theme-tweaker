@@ -1,0 +1,82 @@
+[project]
+name = "mpl-theme-tweaker"
+version = "0.1.0"
+description = "A GUI tool to tweak, preview, and manage matplotlib style sheets."
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+authors = [{ email = "pplotter@foxmail.com" }, { name = "pplotter" }]
+classifiers = [
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Framework :: Matplotlib",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Software Development :: User Interfaces",
+    "Development Status :: 4 - Beta",
+    "Natural Language :: English",
+    "Natural Language :: Chinese (Simplified)",
+]
+dependencies = [
+    "glfw>=2.10.0",
+    "imgui-bundle>=1.92.4",
+    "matplotlib>=3.10.7",
+    "pyopengl>=3.1.10",
+]
+
+[project.urls]
+Repository = "https://github.com/pplotter/mpl-theme-tweaker"
+
+[project.scripts]
+mpl-theme-tweaker = "mpl_theme_tweaker.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.19.0",
+    "pre-commit>=4.5.0",
+    "pyinstaller>=6.16.0",
+    "ruff>=0.14.8",
+    "setuptools>=80.9.0",
+    "wheel>=0.45.1",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.ruff]
+src = ["src"]
+line-length = 88
+
+[tool.ruff.format]
+
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+
+ignore = [
+    "UP045", # x | None
+    "F401",  # unused import
+    "B905",  # zip(a,b)
+]
+
+[tool.mypy]
+disable_error_code = ["import-untyped", "no-redef"]
+check_untyped_defs = true
