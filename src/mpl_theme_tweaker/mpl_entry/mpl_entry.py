@@ -227,7 +227,8 @@ class Float2Entry(Entry):
         changed, new_value = imgui.input_float2(self.label, self.value, self.format)
         if changed:
             if not (self.vmin is None or self.vmax is None):
-                new_value = max(self.vmin, min(new_value, self.vmax))
+                new_value[0] = max(self.vmin, min(new_value[0], self.vmax))
+                new_value[1] = max(self.vmin, min(new_value[1], self.vmax))
 
             if new_value != self.value:
                 self.update_mpl_rcparams(new_value)
