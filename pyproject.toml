@@ -1,9 +1,9 @@
 [project]
 name = "mpl-theme-tweaker"
-version = "0.1.0"
+version = "0.1.1"
 description = "A GUI tool to tweak, preview, and manage matplotlib style sheets."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 license = "MIT"
 authors = [{ email = "pplotter@foxmail.com" }, { name = "pplotter" }]
 classifiers = [

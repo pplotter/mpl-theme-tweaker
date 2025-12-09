@@ -1,0 +1,32 @@
+# All dir or file start with `_` or `.`
+**/_*
+**/.*
+**/.*/
+!.git/
+!.github/
+!.gitignore
+*.ini
+!src/mpl_theme_tweaker/__init__.py
+!src/mpl_theme_tweaker/*/__init__.py
+
+# Shutcut file in Windows
+*.lnk
+
+# font
+*.ttf
+*.otf
+
+# translation files
+translation/*.po
+translation/*.mo
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv

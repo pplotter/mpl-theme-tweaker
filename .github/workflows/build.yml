@@ -1,0 +1,56 @@
+name: Windows Release Build (PyInstaller Folder)
+
+on:
+  push:
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+" # 匹配 v1.0.0, v2.3.4 等标签
+
+jobs:
+  build_and_release:
+    runs-on: windows-latest
+
+    env:
+      TAG_NAME: ${{ github.ref_name }}
+      EXE_NAME: mpl-theme-tweaker
+
+    steps:
+      - name: 📦 Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: 🛠 Install dependencies with uv (PyInstaller and Project Deps)
+        run: |
+          python -m pip install uv
+
+          uv sync
+
+      - name: 🔨 Build with PyInstaller (Folder Mode)
+        run: |
+          cd pyinstaller/
+
+          pyinstaller mpl-theme-tweaker.spec
+
+      - name: 📂 Zip the build directory
+        run: |
+          $ZipFileName = "${{ env.EXE_NAME }}-${{ env.TAG_NAME }}-Windows-Folder.zip"
+
+          Compress-Archive -Path ./pyinstaller/dist/${{ env.EXE_NAME }} -DestinationPath $ZipFileName
+
+      - name: 🚀 Create GitHub Release and Upload Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Release ${{ env.TAG_NAME }}
+          body: |
+            🎉 **${{ env.TAG_NAME }}** Windows (Folder Build) Stable Release.
+
+            This ZIP file contains a self-contained folder with the executable and all dependencies.
+          files: |
+            ./${{ env.EXE_NAME }}-${{ env.TAG_NAME }}-Windows-Folder.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
