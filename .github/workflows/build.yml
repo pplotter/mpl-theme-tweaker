@@ -34,7 +34,7 @@ jobs:
         run: |
           cd pyinstaller/
 
-          pyinstaller mpl-theme-tweaker.spec
+          uv run pyinstaller mpl-theme-tweaker.spec
 
       - name: 📂 Zip the build directory
         run: |
